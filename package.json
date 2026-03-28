@@ -1,0 +1,24 @@
+{
+  "name": "hw-5_frontend4",
+  "version": "1.0.0",
+  "main": "work.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lev-Plo/hw-5_frontend4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lev-Plo/hw-5_frontend4/issues"
+  },
+  "homepage": "https://github.com/Lev-Plo/hw-5_frontend4#readme",
+  "description": "",
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "chart.js": "^4.5.1"
+  }
+}
