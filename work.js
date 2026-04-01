@@ -1,5 +1,5 @@
 // Завдання 1
-const keys = ['A','B','C','D','E','F','G','H','I','J'];
+const keys = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 let currentKeyIndex = 0;
 
 const keyEl = document.getElementById('key');
@@ -13,14 +13,14 @@ window.addEventListener('keydown', (event) => {
   if (pressedKey === keys[currentKeyIndex]) {
 
     PNotify.success({
-      text: '✔ Правильно!'
+      text: 'Правильно!'
     });
 
     currentKeyIndex++;
 
     if (currentKeyIndex >= keys.length) {
       PNotify.success({
-        text: '🎉 Ви виграли!'
+        text: 'Ви виграли!'
       });
       return;
     }
@@ -43,7 +43,7 @@ newGameBtn.addEventListener('click', () => {
   keyEl.textContent = keys[currentKeyIndex];
 
   PNotify.notice({
-    text: '🔄 Нова гра почалась!'
+    text: 'Нова гра почалась!'
   });
 });
 
